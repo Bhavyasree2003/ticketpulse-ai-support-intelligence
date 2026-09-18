@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ticketpulse-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    volumes:
+      - ./support_tickets.csv:/app/support_tickets.csv
+    restart: unless-stopped

@@ -1,0 +1,6 @@
+{
+  "name": "TicketPulse AI - Support Intelligence Platform",
+  "description": "End-to-end AI system for ingesting customer support tickets, answering natural language queries with LLM reasoning, detecting operational anomalies, and exposing REST APIs with an automated test suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
